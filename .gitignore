@@ -1,0 +1,67 @@
+# ============================================================
+# EHR Data Quality Assessment Repository
+# ------------------------------------------------------------
+# Created for the Ascension Data Sciences Institute project.
+# Do NOT commit sensitive data, credentials, or patient information.
+# ============================================================
+
+# ============================
+# Python & Environment
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.venv/
+*.log
+
+# ============================
+# Jupyter Notebooks
+# ============================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# ============================
+# Data & Outputs
+# ============================
+data/raw/
+data/processed/
+figures/
+outputs/
+logs/
+
+# ============================
+# Great Expectations
+# ============================
+.great_expectations/
+great_expectations/uncommitted/
+gx/uncommitted/
+
+# ============================
+# IDE / OS Specific
+# ============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ============================
+# Secrets / API Keys
+# ============================
+*.env
+.env.*
+secrets.yaml
+config.json
+*_key.txt
+*_token.txt
